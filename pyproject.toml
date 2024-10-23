@@ -1,0 +1,12 @@
+[build-system]
+requires = ["scikit-build-core==0.10.7"]
+build-backend = "scikit_build_core.build"
+
+
+[project]
+name = "dumpbin_not_found"
+version = "0.0.0"
+
+[tool.scikit-build]
+cmake.args = ["--preset=base"]
+wheel.cmake = true
